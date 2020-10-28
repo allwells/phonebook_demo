@@ -1,0 +1,22 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "HTML is easy",
+      "date": "2019-05-30T17:30:31.098Z",
+      "important": true
+    },
+    {
+      "id": 2,
+      "content": "Browser can execute on JavaScript",
+      "date": "2019-05-30T18:39:34.091Z",
+      "important": true
+    },
+    {
+      "id": 3,
+      "content": "GET and POST methods are the most important of HTTP protocol",
+      "date": "2019-05-30T19:20:14.298Z",
+      "important": true
+    }
+  ]
+}

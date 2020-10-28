@@ -1,0 +1,108 @@
+html,
+body {
+	font-family: monospace;
+	margin: 0;
+	padding: 0;
+}
+
+.main-div {
+	background-color: whitesmoke;
+	padding: 20px;
+	margin: 25px;
+	border-radius: 5px;
+	align-content: center;
+}
+
+h1 {
+	color: royalblue;
+	text-align: center;
+}
+
+.note {
+	background-color: whitesmoke;
+	color: lightslategray;
+	padding: 10px;
+	margin-bottom: 5px;
+	display: block;
+	font-size: 15px;
+	border-radius: 5px;
+	list-style: none;
+}
+
+.btn {
+	background-color: cornflowerblue;
+	color: whitesmoke;
+	margin-right: 10px;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 5px;
+	border-width: 0px;
+	transition-duration: 1s;
+}
+
+.btn:hover {
+	transition-duration: 1s;
+	background-color: royalblue;
+}
+
+.show {
+	background-color: cornflowerblue;
+	color: whitesmoke;
+	margin-right: 10px;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 5px;
+	border-width: 0px;
+	width: 100%;
+	transition-duration: 1s;
+}
+
+.show:hover {
+	transition-duration: 1s;
+	background-color: royalblue;
+}
+
+.save {
+	background-color: white;
+	color: royalblue;
+	padding: 8px 24px 8px 0px;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 0px 5px 5px 0px;
+	border-width: 0px;
+	transition-duration: 1s;
+}
+
+.save:hover {
+	transition-duration: 1s;
+	color: lightblue;
+}
+
+.input {
+	background-color: white;
+	color: darkslategray;
+	padding: 9px;
+	margin-top: 10px;
+	margin-right: 0;
+	border-radius: 5px 0px 0px 5px;
+	border-width: 0px;
+	width: 94.4%;
+}
+
+.note-div {
+	margin-top: 10px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.error {
+	color: rgb(253, 92, 92);
+	background: rgb(253, 217, 217);
+	font-size: 14px;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
