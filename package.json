@@ -17,8 +17,14 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"server": "npx json-server -p3001 --watch db.json"
+		"server": "npx json-server -p3001 --watch db.json",
+		"backend-server": "cd ../../part3/Node.js-Express/ && npm run dev",
+		"build:ui": "rm -rf build && cd ../../part2/Phonebook/ && npm run build --prod && cp -r build ../../part3/Node.js-Express/",
+		"deploy": "git push heroku master",
+		"deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy",
+		"logs:prod": "heroku logs --tail"
 	},
+	"proxy": "http://localhost:3001",
 	"eslintConfig": {
 		"extends": "react-app"
 	},

@@ -94,13 +94,14 @@ const App = () => {
 					/>
 				))}
 			</div>
-			<form onSubmit={addNote}>
+			<form className="form" onSubmit={addNote}>
 				<input
 					className="input"
 					placeholder="Type notes here"
 					value={newNote}
 					onChange={handleNoteChange}
 				/>
+				<div className="spacer"></div>
 				<button className="save" type="submit">
 					Save
 				</button>
